@@ -81,7 +81,7 @@
 
 body {
   background: #3A01DF;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand', sans-serif !important;
 }
 
 .left-menu {
