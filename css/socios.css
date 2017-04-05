@@ -90,7 +90,6 @@ body {
   position: fixed;
   top: 0;
   bottom: 0;
-  /*visibility: hidden;*/
 }
 
 .accordion {
@@ -165,4 +164,19 @@ ul li:hover i {
 .OneMessage:hover {
   border: 2px solid #21CCFC;
   background: #bbc0f7;
+}
+
+#update{
+  color: white;
+  background-color: red;
+  height: 30px;
+  content:"\E125";
+  margin-left: 5000px;
+}
+
+.fa .fa-envelope-o{
+  margin-left: 5000px;
+}
+.glyphicons-message-plus:before{
+  content:"\E125"
 }
