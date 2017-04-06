@@ -77,6 +77,7 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+
 }
 
 body {
@@ -152,15 +153,17 @@ ul li:hover i {
 .messages {
   margin-left: 200px;
   background-color: #d2d4f4;
-  padding: 0 50px 50px 50px;
+  padding: 0 50px 20px 50px;
   margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 .OneMessage {
-  border: 1px solid black;
+  border: 1px solid #3A01DF;
   border-radius: 5px;
   padding: 10px 20px 10px 20px;
   margin: 10px;
+  min-height: 50px;
 }
 
 .OneMessage:hover {
@@ -176,4 +179,24 @@ ul li:hover i {
 	margin-right: 50px;
 	position: relative;
   color: white;
+}
+
+.messages .OneMessage .info {
+  margin-left: 0px;
+}
+
+.messages .OneMessage .OneMessage-text {
+  width: auto;
+  margin-left: 62px;
+}
+.messages .OneMessage .user-name {
+  font-size: 1.2em;
+  margin-left: 10px;
+}
+.img-circle{
+  border: 1px solid #3A01DF;
+}
+.loading{
+  margin-left: 45%;
+  margin-top: 20px;
 }
