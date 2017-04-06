@@ -90,6 +90,7 @@ body {
   position: fixed;
   top: 0;
   bottom: 0;
+  padding-top: 5px;
 }
 
 .accordion {
@@ -138,6 +139,16 @@ ul li:hover i {
   color: #21CCFC;
 }
 
+#title{
+  color: #3A01DF;
+  text-align: center;
+  font-size: 4em;
+  position: relative;
+  padding-top: 50px;
+  margin-top: 2px;
+  padding-bottom: 5px;
+}
+
 .messages {
   margin-left: 200px;
   background-color: #d2d4f4;
@@ -152,31 +163,17 @@ ul li:hover i {
   margin: 10px;
 }
 
-#title{
-  color: #3A01DF;
-  text-align: center;
-  font-size: 4em;
-  position: relative;
-  padding-top: 20px;
-  margin-top: 30px;
-}
-
 .OneMessage:hover {
   border: 2px solid #21CCFC;
   background: #bbc0f7;
+  font-size: 1.2em;
 }
 
-#update{
+#update p{
+	float: right;
+  margin-top: 7px;
+  margin-bottom: 5px;
+	margin-right: 50px;
+	position: relative;
   color: white;
-  background-color: red;
-  height: 30px;
-  content:"\E125";
-  margin-left: 5000px;
-}
-
-.fa .fa-envelope-o{
-  margin-left: 5000px;
-}
-.glyphicons-message-plus:before{
-  content:"\E125"
 }
