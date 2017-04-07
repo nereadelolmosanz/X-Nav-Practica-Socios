@@ -2,18 +2,30 @@ $(document).ready(function(){
   var loaded = false;
   var myline = false;
 
-  var create_msg = function(img,author,title,date,content,likes){
+  var create_msg = function(id,img,author,title,date,likes){
     msg = '<div class="OneMessage">';
     msg += '<img class="img-circle pull-left" src="'+img+'" width="50px" height="50px">';
     msg += '<div class="message-info">';
     msg += '<p><span class="msg-title text-primary">'+title+'</span>';
     msg += ' -<span class="user-name text-primary">'+author+'</span>';
     msg += '<small class="pull-right text-muted"><i class="fa fa-calendar"></i> '+date+'</small></p>';
-    msg += '<p class="OneMessage-text">'+content;
-    msg += '<i class="pull-right fa fa-thumbs-up"> '+likes+'</i>';
-    msg += '</p></div></div>';
+    id_text = id + "-text";
+    msg += '<i id="'+id+'" class="fa fa-arrow-circle-down"></i>'
+    msg += '<p id="'+id_text+'" class="OneMessage-text">';
+    msg += '<i class="pull-right fa fa-thumbs-up"> '+likes+'</i></p>';
+    msg += '</div></div>';
     return msg;
   }
+
+  var create_listener = function(id, content){
+    $("#"+id).click(function(){
+      id_text = id + "-text";
+      msg = content + document.getElementById(id_text).innerHTML;
+      document.getElementById(id_text).innerHTML = msg;
+      $("#"+id).remove();
+    });
+  }
+
 
 // TIMELINE CODE
   $(".timeline").click(function(e){
@@ -31,8 +43,10 @@ $(document).ready(function(){
         date = data.messages[i].date;
         content = data.messages[i].content;
         likes = data.messages[i].likes;
-        msg = create_msg(img,author,title,date,content,likes);
+        id = "tl-" + i.toString();
+        msg = create_msg(id,img,author,title,date,likes);
         $("#messages").append(msg);
+        create_listener(id,content);
       }
     });
     $.getJSON("json/update.json",function(data){
@@ -67,8 +81,10 @@ $(document).ready(function(){
           date = data.messages[i].date;
           content = data.messages[i].content;
           likes = data.messages[i].likes;
-          msg = create_msg(img,author,title,date,content,likes);
+          id = "up-" + i.toString();
+          msg = create_msg(id,img,author,title,date,likes);
           $("#title").after(msg);
+          create_listener(id,content);
         }
       });
       $(".new-messages").remove();
@@ -91,8 +107,10 @@ $(document).ready(function(){
         date = data.messages[i].date;
         content = data.messages[i].content;
         likes = data.messages[i].likes;
-        msg = create_msg(img,author,title,date,content,likes);
+        id = "ml-" + i.toString();
+        msg = create_msg(id,img,author,title,date,likes);
         $("#messages").append(msg);
+        create_listener(id,content);
       }
     });
     myline = true;

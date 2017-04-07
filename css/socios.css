@@ -155,7 +155,7 @@ ul li:hover i {
   border-radius: 5px;
   padding: 10px 20px 10px 20px;
   margin: 10px;
-  min-height: 50px;
+  min-height: 73px;
   color: #3A01DF;
 }
 
@@ -180,7 +180,9 @@ ul li:hover i {
 .messages .OneMessage .OneMessage-text {
   width: auto;
   margin-left: 62px;
+  margin-right: 20px;
   font-size: 1.1em;
+  text-align: justify;
 }
 .messages .OneMessage .user-name{
   margin-left: 10px;
@@ -217,4 +219,8 @@ ul li:hover i {
   padding: 10px 20px 10px 20px;
   color: #3A01DF;
   text-align: center;
+}
+.fa-arrow-circle-down{
+  font-size: 2.5em;
+  margin-left: 40%;
 }
