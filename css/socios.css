@@ -157,12 +157,13 @@ ul li:hover i {
   padding: 10px 20px 10px 20px;
   margin: 10px;
   min-height: 50px;
+  color: #3A01DF;
 }
 
 .OneMessage:hover {
   border: 2px solid #21CCFC;
   background: #bbc0f7;
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 #update p {
@@ -180,6 +181,7 @@ ul li:hover i {
 .messages .OneMessage .OneMessage-text {
   width: auto;
   margin-left: 62px;
+  font-size: 1.1;
 }
 .messages .OneMessage .user-name {
   font-size: 1.2em;
@@ -190,4 +192,9 @@ ul li:hover i {
 }
 .loading{
   margin: 20px auto 0 45%;
+}
+
+.text-primary{
+  color: #58ACFA;
+  font-size: 1.2em;
 }
