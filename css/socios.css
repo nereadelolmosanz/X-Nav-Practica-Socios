@@ -41,7 +41,6 @@
   -moz-user-select: none;
   -ms-user-select: none;
   -o-user-select: none;
-  user-select: none;
 }
 .accordion .section label:before {
   content: " ";
@@ -181,7 +180,7 @@ ul li:hover i {
 .messages .OneMessage .OneMessage-text {
   width: auto;
   margin-left: 62px;
-  font-size: 1.1;
+  font-size: 1.1em;
 }
 .messages .OneMessage .user-name {
   font-size: 1.2em;
@@ -191,7 +190,9 @@ ul li:hover i {
   border: 1px solid #3A01DF;
 }
 .loading{
-  margin: 20px auto 0 45%;
+  margin-left: 50%;
+  margin-top: 20%;
+  color: #d2d4f4;
 }
 
 .text-primary{

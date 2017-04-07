@@ -8,21 +8,19 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-
     <link rel="stylesheet" href="css/socios.css">
 
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='js/jquery.min.js'></script>
     <script src="js/socios.js"></script>
-
   </head>
   <body>
     <!--MENU ARRIBA DERECHA-->
 	  <div class="row">
   	  <div id="update" class="xs-hidden">
         <p>
-          <i class="fa fa-user-o"></i><span> My line &nbsp;</span>
-          <i class="fa fa-share"></i><span> Update &nbsp;</span>
-            <i class="fa fa-envelope-o"></i><span> Timeline</span>
+          <span class="timeline"><i class="fa fa-envelope-o"></i> Timeline</span>
+          <span class="update"><i class="fa fa-share"></i> Update &nbsp;</span>
+          <span class="myline"><i class="fa fa-user-o"></i> My line &nbsp;</span>
         </p>
   	  </div>
     </div>
@@ -39,9 +37,9 @@
           <label for="section-1"><span>Messages</span></label>
           <div class="content">
             <ul>
-              <li><i class="fa fa-comments-o"></i><span>Timeline</span></li>
-              <li><i class="fa fa-share"></i><span>Update</span></li>
-              <li><i class="fa fa-user-o"></i><span>My line</span></li>
+              <li class="timeline"><i class="fa fa-comments-o"></i><span>Timeline</span></li>
+              <li class="update"><i class="fa fa-share"></i><span>Update</span></li>
+              <li class="myline"><i class="fa fa-user-o"></i><span>My line</span></li>
             </ul>
           </div>
         </div>
@@ -76,10 +74,11 @@
     </div>
     <!--/MENU IZQUIERDO-->
 
-
     <!--MENSAJES-->
-    <div class="messages">
-      <h1 id="title">Timeline</h1>
+    <div id="messages" class="xs-hidden">
+      <img class="img-circle pull-left" src="js/json/user1.jpg" width="50px" height="50px">
+      <i class="loading fa fa-spinner fa-pulse fa-3x fa-fw"></i>
+                <!--
       <div class="OneMessage hidden-xs">
         <img class="img-circle pull-left" src="json/images/user1.jpg" width="50px" height="50px">
         <div class="message-info">
@@ -90,11 +89,8 @@
           </p>
         </div>
       </div>
-      <i class="loading fa fa-spinner fa-pulse fa-3x fa-fw"></i>
-      <span class="sr-only">Loading...</span>
+              -->
     </div>
-
-
     <!--/MENSAJES-->
 
 
