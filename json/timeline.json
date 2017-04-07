@@ -1,77 +1,57 @@
 {
-  "messages":
-  [
-    {
-    "author": "Pepe González Martín",
-    "img": "json/images/user1.jpg",
-    "title": "Welcome",
-    "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elitImagen genéricaNullam est lacus, suscipit ut, dapibus quis, condimentum ac, risus. Vivamus vestibulum, ipsum sollicitudin faucibus pharetra, dolor metus fringilla dui, vel aliquet pede diam tempor tortor.Vestibulum pulvinar urna et quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam vel turpis vitae dui imperdiet laoreet. Quisque eget ipsum.Donec commodo, turpis vel venenatis sollicitudin, quam ante convallis justo, sed eleifend justo lectus quis sapien. Ut consequat libero eget est.",
-    "date": "10.12.2014 in 12:56",
-    "likes": "57"
-    },
-    {
-    "author": "Rosa Gómez Pérez",
-    "img": "json/images/user2.png",
-    "title": "Welcome",
-    "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elitImagen genéricaNullam est lacus, suscipit ut, dapibus quis, condimentum ac, risus. Vivamus vestibulum, ipsum sollicitudin faucibus pharetra, dolor metus fringilla dui, vel aliquet pede diam tempor tortor.Vestibulum pulvinar urna et quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam vel turpis vitae dui imperdiet laoreet. Quisque eget ipsum.Donec commodo, turpis vel venenatis sollicitudin, quam ante convallis justo, sed eleifend justo lectus quis sapien. Ut consequat libero eget est.Lorem ipsum dolor sit amet, consectetuer adipiscing elitImagen genéricaNullam est lacus, suscipit ut, dapibus quis, condimentum ac, risus. Vivamus vestibulum, ipsum sollicitudin faucibus pharetra, dolor metus fringilla dui, vel aliquet pede diam tempor tortor.Vestibulum pulvinar urna et quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam vel turpis vitae dui imperdiet laoreet. Quisque eget ipsum.Donec commodo, turpis vel venenatis sollicitudin, quam ante convallis justo, sed eleifend justo lectus quis sapien. Ut consequat libero eget est.",
-    "date": "10.12.2014 in 12:58",
-    "likes": "12"
-    },
-    {
-    "author": "María Chacón Gil",
-    "img": "json/images/user3.png",
-    "title": "Welcome",
-    "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elitImagen genéricaNullam est lacus, suscipit ut, dapibus quis, condimentum ac, risus. Vivamus vestibulum, ipsum sollicitudin faucibus pharetra, dolor metus fringilla dui, vel aliquet pede diam tempor tortor.Vestibulum pulvinar urna et quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam vel turpis vitae dui imperdiet laoreet. Quisque eget ipsum.Donec commodo, turpis vel venenatis sollicitudin, quam ante convallis justo, sed eleifend justo lectus quis sapien. Ut consequat libero eget est.",
-    "date": "09.12.2014 in 10:03",
-    "likes": "16"
-    },
-    {
-    "author": "Javier Salcedo Villar",
-    "img": "json/images/user4.png",
-    "title": "Welcome",
-    "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elitImagen genéricaNullam est lacus, suscipit ut, dapibus quis, condimentum ac, risus. Vivamus vestibulum, ipsum sollicitudin faucibus pharetra, dolor metus fringilla dui, vel aliquet pede diam tempor tortor.Vestibulum pulvinar urna et quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam vel turpis vitae dui imperdiet laoreet. Quisque eget ipsum.Donec commodo, turpis vel venenatis sollicitudin, quam ante convallis justo, sed eleifend justo lectus quis sapien. Ut consequat libero eget est.Lorem ipsum dolor sit amet, consectetuer adipiscing elitImagen genéricaNullam est lacus, suscipit ut, dapibus quis, condimentum ac, risus. Vivamus vestibulum, ipsum sollicitudin faucibus pharetra, dolor metus fringilla dui, vel aliquet pede diam tempor tortor.Vestibulum pulvinar urna et quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam vel turpis vitae dui imperdiet laoreet. Quisque eget ipsum.Donec commodo, turpis vel venenatis sollicitudin, quam ante convallis justo, sed eleifend justo lectus quis sapien. Ut consequat libero eget est.",
-    "date": "09.12.2014 in 10:01",
-    "likes": "8"
-    },
-    {
-    "author": "Juan Antonio Palacios Robles",
-    "img": "json/images/user5.jpg",
-    "title": "Welcome",
-    "content": "Hi! this message is for you.",
-    "date": "08.12.2014 in 07:34",
-    "likes": "3"
-    },
-    {
-    "author": "Esther Arias Collado",
-    "img": "json/images/user6.png",
-    "title": "Welcome",
-    "content": "Hi! this message is for you.",
-    "date": "06.12.2014 in 18:47",
-    "likes": "15"
-    },
-    {
-    "author": "Javier Salcedo Villar",
-    "img": "json/images/user4.png",
-    "title": "Welcome",
-    "content": "Hi! this message is for you.",
-    "date": "05.12.2014 in 15:43",
-    "likes": "17"
-    },
-    {
-    "author": "Juan Antonio Palacios Robles",
-    "img": "json/images/user5.jpg",
-    "title": "Welcome",
-    "content": "Hi! this message is for you.",
-    "date": "05.12.2014 in 12:27",
-    "likes": "1"
-    },
-    {
-    "author": "Rosa Gómez Pérez",
-    "img": "json/images/user2.png",
-    "title": "Welcome",
-    "content": "Hi! this message is for you.",
-    "date": "04.12.2014 in 22:40",
-    "likes": "6"
-    }
-  ]
+  "messages": [
+    { "author": "Pepe González Martín",
+      "img": "json/images/user1.jpg",
+      "title": "Welcome",
+      "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elitImagen genéricaNullam est lacus, suscipit ut, dapibus quis, condimentum ac, risus. Vivamus vestibulum, ipsum sollicitudin faucibus pharetra, dolor metus fringilla dui, vel aliquet pede diam tempor tortor.Vestibulum pulvinar urna et quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam vel turpis vitae dui imperdiet laoreet. Quisque eget ipsum.Donec commodo, turpis vel venenatis sollicitudin, quam ante convallis justo, sed eleifend justo lectus quis sapien. Ut consequat libero eget est.",
+      "date": "10.12.2014 - 12:56h",
+      "likes": "57" },
+    { "author": "Rosa Gómez Pérez",
+      "img": "json/images/user2.png",
+      "title": "Party",
+      "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elitImagen genéricaNullam est lacus, suscipit ut, dapibus quis, condimentum ac, risus. Vivamus vestibulum, ipsum sollicitudin faucibus pharetra, dolor metus fringilla dui, vel aliquet pede diam tempor tortor.Vestibulum pulvinar urna et quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam vel turpis vitae dui imperdiet laoreet. Quisque eget ipsum.Donec commodo, turpis vel venenatis sollicitudin, quam ante convallis justo, sed eleifend justo lectus quis sapien. Ut consequat libero eget est.Lorem ipsum dolor sit amet, consectetuer adipiscing elitImagen genéricaNullam est lacus, suscipit ut, dapibus quis, condimentum ac, risus. Vivamus vestibulum, ipsum sollicitudin faucibus pharetra, dolor metus fringilla dui, vel aliquet pede diam tempor tortor.Vestibulum pulvinar urna et quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam vel turpis vitae dui imperdiet laoreet. Quisque eget ipsum.Donec commodo, turpis vel venenatis sollicitudin, quam ante convallis justo, sed eleifend justo lectus quis sapien. Ut consequat libero eget est.",
+      "date": "10.12.2014 - 12:58h",
+      "likes": "12" },
+    { "author": "María Chacón Gil",
+      "img": "json/images/user3.png",
+      "title": "Enfermedad",
+      "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elitImagen genéricaNullam est lacus, suscipit ut, dapibus quis, condimentum ac, risus. Vivamus vestibulum, ipsum sollicitudin faucibus pharetra, dolor metus fringilla dui, vel aliquet pede diam tempor tortor.Vestibulum pulvinar urna et quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam vel turpis vitae dui imperdiet laoreet. Quisque eget ipsum.Donec commodo, turpis vel venenatis sollicitudin, quam ante convallis justo, sed eleifend justo lectus quis sapien. Ut consequat libero eget est.",
+      "date": "09.12.2014 - 10:03h",
+      "likes": "16" },
+    { "author": "Javier Salcedo Villar",
+      "img": "json/images/user4.png",
+      "title": "Trabajo",
+      "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elitImagen genéricaNullam est lacus, suscipit ut, dapibus quis, condimentum ac, risus. Vivamus vestibulum, ipsum sollicitudin faucibus pharetra, dolor metus fringilla dui, vel aliquet pede diam tempor tortor.Vestibulum pulvinar urna et quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam vel turpis vitae dui imperdiet laoreet. Quisque eget ipsum.Donec commodo, turpis vel venenatis sollicitudin, quam ante convallis justo, sed eleifend justo lectus quis sapien. Ut consequat libero eget est.Lorem ipsum dolor sit amet, consectetuer adipiscing elitImagen genéricaNullam est lacus, suscipit ut, dapibus quis, condimentum ac, risus. Vivamus vestibulum, ipsum sollicitudin faucibus pharetra, dolor metus fringilla dui, vel aliquet pede diam tempor tortor.Vestibulum pulvinar urna et quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam vel turpis vitae dui imperdiet laoreet. Quisque eget ipsum.Donec commodo, turpis vel venenatis sollicitudin, quam ante convallis justo, sed eleifend justo lectus quis sapien. Ut consequat libero eget est.",
+      "date": "09.12.2014 - 10:01h",
+      "likes": "8" },
+    { "author": "Juan Antonio Palacios Robles",
+      "img": "json/images/user5.jpg",
+      "title": "Estoy de vacaciones",
+      "content": "YUHUUUUUUUUUUUUUUU!",
+      "date": "08.12.2014 - 07:34h",
+      "likes": "3" },
+    { "author": "Esther Arias Collado",
+      "img": "json/images/user6.png",
+      "title": "¡Lorem ipsum mola mucho!",
+      "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elitImagen genéricaNullam est lacus, suscipit ut, dapibus quis, condimentum ac, risus. Vivamus vestibulum, ipsum sollicitudin faucibus pharetra, dolor metus fringilla dui, vel aliquet pede diam tempor tortor.Vestibulum pulvinar urna et quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam vel turpis vitae dui imperdiet laoreet. Quisque eget ipsum.Donec commodo, turpis vel venenatis sollicitudin, quam ante convallis justo, sed eleifend justo lectus quis sapien. Ut consequat libero eget est.Lorem ipsum dolor sit amet, consectetuer adipiscing elitImagen genéricaNullam est lacus, suscipit ut, dapibus quis, condimentum ac, risus. Vivamus vestibulum, ipsum sollicitudin faucibus pharetra, dolor metus fringilla dui, vel aliquet pede diam tempor tortor.Vestibulum pulvinar urna et quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam vel turpis vitae dui imperdiet laoreet. Quisque eget ipsum.Donec commodo, turpis vel venenatis sollicitudin, quam ante convallis justo, sed eleifend justo lectus quis sapien. Ut consequat libero eget est.",
+      "date": "06.12.2014 - 18:47h",
+      "likes": "15" },
+    { "author": "Javier Salcedo Villar",
+      "img": "json/images/user4.png",
+      "title": "Love Lorem ipsum...",
+      "content": "Hi! this message is for you.",
+      "date": "05.12.2014 - 15:43h",
+      "likes": "17" },
+    { "author": "Juan Antonio Palacios Robles",
+      "img": "json/images/user5.jpg",
+      "title": "A ver si acabo de una vez...",
+      "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elitImagen genéricaNullam est lacus, suscipit ut, dapibus quis, condimentum ac, risus. Vivamus vestibulum, ipsum sollicitudin faucibus pharetra.",
+      "date": "05.12.2014 - 12:27h",
+      "likes": "1" },
+    {"author": "Rosa Gómez Pérez",
+      "img": "json/images/user2.png",
+      "title": "Otro título más",
+      "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elitImagen genéricaNullam est lacus, suscipit ut, dapibus quis, condimentum ac, risus. Vivamus vestibulum, ipsum sollicitudin faucibus pharetra.",
+      "date": "04.12.2014 - 22:40h",
+      "likes": "6"}]
 }

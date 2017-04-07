@@ -162,10 +162,10 @@ ul li:hover i {
 .OneMessage:hover {
   border: 2px solid #21CCFC;
   background: #bbc0f7;
-  font-size: 1.3em;
+  font-size: 1.4em;
 }
 
-#update p {
+.right-menu {
   float: right;
   margin-top: 7px;
   margin-bottom: 5px;
@@ -182,9 +182,17 @@ ul li:hover i {
   margin-left: 62px;
   font-size: 1.1em;
 }
-.messages .OneMessage .user-name {
-  font-size: 1.2em;
+.messages .OneMessage .user-name{
   margin-left: 10px;
+  font-size: 1.2;
+  font-style: italic;
+  font-weight: bolder;
+}
+.messages .OneMessage .msg-title
+ {
+  font-size: 1.4em;
+  margin-left: 10px;
+  font-weight: bold;
 }
 .img-circle{
   border: 1px solid #3A01DF;
@@ -194,8 +202,19 @@ ul li:hover i {
   margin-top: 20%;
   color: #d2d4f4;
 }
-
 .text-primary{
   color: #58ACFA;
   font-size: 1.2em;
+}
+.alert{
+  margin-left: 200px;
+  margin-right: 30px;
+}
+.new-messages{
+  width: auto;
+  border: 2px solid #21CCFC;
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+  color: #3A01DF;
+  text-align: center;
 }
