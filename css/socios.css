@@ -86,13 +86,13 @@ body {
 }
 
 .left-menu {
-  background: #3A01DF;
-  width: 200px;
   position: fixed;
-  top: 0;
-  bottom: 0;
+  background: #3A01DF;
   padding-top: 5px;
+  top: 0;
+  width: 200px;
 }
+
 
 .accordion {
   font-size: 14px;
@@ -129,15 +129,8 @@ ul li:hover i {
 }
 
 .logo {
-  padding: 30px 10px;
+  padding-top: 15px;
   width: 200px;
-  text-align: center;
-  color: #FFF;
-  font-size: 25px;
-}
-.logo i {
-  font-size: 70px;
-  color: #21CCFC;
 }
 
 #title{
@@ -172,19 +165,18 @@ ul li:hover i {
   font-size: 1.2em;
 }
 
-#update p{
-	float: right;
+#update p {
+  float: right;
   margin-top: 7px;
   margin-bottom: 5px;
-	margin-right: 50px;
-	position: relative;
+  margin-right: 50px;
+  position: relative;
   color: white;
 }
 
 .messages .OneMessage .info {
   margin-left: 0px;
 }
-
 .messages .OneMessage .OneMessage-text {
   width: auto;
   margin-left: 62px;
@@ -197,6 +189,5 @@ ul li:hover i {
   border: 1px solid #3A01DF;
 }
 .loading{
-  margin-left: 45%;
-  margin-top: 20px;
+  margin: 20px auto 0 45%;
 }
