@@ -51,10 +51,11 @@ $(document).ready(function(){
     });
     $.getJSON("json/update.json",function(data){
       if (data.messages.length > 0){
-        newMsg = '<p class="new-messages">Se han encontrado ';
+        newMsg = '</br><p class="new-messages">Se han encontrado ';
         newMsg += data.messages.length;
         newMsg += " nuevos mensajes.</p>";
         $("#messages").prepend(newMsg);
+        $(".badge").html(data.messages.length);
       }
     });
     myline = false;
@@ -71,6 +72,7 @@ $(document).ready(function(){
       alert += 'Debes visualizar tu timeline primero.</div>'
       $("#messages").html(alert);
     } else {
+      $(".badge").html("");
       $("#title").html('New messages loaded');
       e.preventDefault();
       $.getJSON("json/update.json",function(data){

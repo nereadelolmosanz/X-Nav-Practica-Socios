@@ -149,7 +149,6 @@ ul li:hover i {
   margin-right: 30px;
   margin-bottom: 30px;
 }
-
 .OneMessage {
   border: 1px solid #3A01DF;
   border-radius: 5px;
@@ -158,13 +157,11 @@ ul li:hover i {
   min-height: 73px;
   color: #3A01DF;
 }
-
 .OneMessage:hover {
   border: 2px solid #21CCFC;
   background: #bbc0f7;
   font-size: 1.4em;
 }
-
 .right-menu {
   float: right;
   margin-top: 7px;
@@ -173,7 +170,6 @@ ul li:hover i {
   position: relative;
   color: white;
 }
-
 .messages .OneMessage .info {
   margin-left: 0px;
 }
@@ -219,6 +215,10 @@ ul li:hover i {
   padding: 10px 20px 10px 20px;
   color: #3A01DF;
   text-align: center;
+}
+.badge{
+  background-color: #21CCFC;
+  color: #0B0B61;
 }
 .fa-arrow-circle-down{
   font-size: 2.5em;
